@@ -1,11 +1,29 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-quizz',
-  imports: [],
   templateUrl: './quizz.component.html',
-  styleUrl: './quizz.component.css'
+  styleUrls: ['./quizz.component.css']
 })
-export class QuizzComponent {
+export class QuizzComponent implements OnInit {
+
+  title:string =""
+
+  questions:any
+  questionsSelected:any
+
+  answers:string[] = []
+  answerSelected:string =""
+
+  questionsIndex:number =0
+  questionMaxIndex:number =0
+
+  finished:boolean = false
+
+  constructor() { }
+
+  ngOnInit(): void {
+      
+  }
 
 }
