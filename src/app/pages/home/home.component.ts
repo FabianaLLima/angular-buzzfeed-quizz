@@ -5,7 +5,7 @@ import { QuizzComponent } from "../../components/quizz/quizz.component";
   selector: 'app-home',
   imports: [QuizzComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
 

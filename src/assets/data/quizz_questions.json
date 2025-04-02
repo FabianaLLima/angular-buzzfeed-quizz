@@ -1,55 +1,67 @@
 {
-    "title":"Você seria um heroi ou vilão ?",
-    "questions":[
-      {
-        "id":1,
-        "question": "Qual super poder você escolheria ?",
-        "options":[
-          {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-          {"id": 2, "name":"Voar", "alias":"B"},
-          {"id": 3, "name":"Explodir coisas", "alias":"A"},
-          {"id": 4, "name":"Curar feridas", "alias":"B"},
-          {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
-        ]
-      },
-      {
-        "id":2,
-        "question": "Quem você salvaria primeiro ?",
-        "options":[
-          {"id": 1, "name":"Crianças", "alias":"A"},
-          {"id": 2, "name":"Idosos", "alias":"A"},
-          {"id": 3, "name":"Não saberia escolher", "alias":"B"}
-        ]
-      },
-      {
-        "id":3,
-        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-        "options":[
-          {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-          {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-          {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-          {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
-        ]
-      },
-      {
-        "id":4,
-        "question": "Qual o seu maior foco ?",
-        "options":[
-          {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-          {"id": 2, "name":"Salvar a cidade", "alias":"B"}
-        ]
-      },
-      {
-        "id":5,
-        "question": "Qual o seu apelido de super ser ?",
-        "options":[
-          {"id": 1, "name":"O Terrivel", "alias":"A"},
-          {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
-        ]
-      }
-    ],
-    "results":{
-      "A": "Você muito provavelmente seria um super vilão!",
-      "B": "Você muito provavelmente seria um super Herói!"
+  "title": "Qual Linguagem de Programação Você Seria?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Como você prefere resolver problemas?",
+      "options": [
+        { "id": 1, "name": "Seguindo regras bem definidas.", "alias": "Java" },
+        { "id": 2, "name": "Testando diferentes abordagens.", "alias": "Python" },
+        { "id": 3, "name": "Criando algo visual e interativo.", "alias": "JavaScript" },
+        { "id": 4, "name": "De forma rápida e eficiente.", "alias": "C++" },
+        { "id": 5, "name": "Automatizando tudo!", "alias": "Python" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Qual dessas frases combina mais com você?",
+      "options": [
+        { "id": 1, "name": "Gosto de simplicidade e praticidade.", "alias": "Python" },
+        { "id": 2, "name": "Se não está quebrado, não conserte.", "alias": "Java" },
+        { "id": 3, "name": "Prefiro ter controle total sobre o que faço.", "alias": "C++" },
+        { "id": 4, "name": "A criatividade é a chave para tudo.", "alias": "JavaScript" },
+        { "id": 5, "name": "Otimização é minha prioridade!", "alias": "C++" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "O que você mais gosta em programação?",
+      "options": [
+        { "id": 1, "name": "Analisar e processar dados.", "alias": "Python" },
+        { "id": 2, "name": "Criar sites e aplicativos bonitos.", "alias": "JavaScript" },
+        { "id": 3, "name": "Criar sistemas escaláveis e eficientes.", "alias": "Java" },
+        { "id": 4, "name": "Desenvolver jogos ou interfaces interativas.", "alias": "C++" },
+        { "id": 5, "name": "Automação e inteligência artificial.", "alias": "Python" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Se você fosse um sistema operacional, qual seria?",
+      "options": [
+        { "id": 1, "name": "Windows (Popular e versátil)", "alias": "Java" },
+        { "id": 2, "name": "macOS (Design e eficiência)", "alias": "Swift" },
+        { "id": 3, "name": "Linux (Poderoso e customizável)", "alias": "C++" },
+        { "id": 4, "name": "Android (Aberto e flexível)", "alias": "JavaScript" },
+        { "id": 5, "name": "Qualquer um, contanto que funcione!", "alias": "Python" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Se você fosse um programador, qual seria seu estilo?",
+      "options": [
+        { "id": 1, "name": "Rápido e prático.", "alias": "JavaScript" },
+        { "id": 2, "name": "Gosto de estudar cada detalhe antes de agir.", "alias": "Java" },
+        { "id": 3, "name": "Criativo e inovador.", "alias": "JavaScript" },
+        { "id": 4, "name": "Estruturado e organizado.", "alias": "Java" },
+        { "id": 5, "name": "Faço acontecer, sem complicação!", "alias": "Python" }
+      ]
     }
+  ],
+  "results": {
+    "Python": "Você seria Python! Versátil, intuitivo e ótimo para resolver problemas.",
+    "JavaScript": "Você seria JavaScript! Criativo, dinâmico e adora interatividade.",
+    "Java": "Você seria Java! Estruturado, confiável e sempre presente no mercado.",
+    "C++": "Você seria C++! Rápido, otimizado e gosta de controle total.",
+    "Swift": "Você seria Swift! Eficiente, moderno e focado em experiência de usuário."
   }
+}
